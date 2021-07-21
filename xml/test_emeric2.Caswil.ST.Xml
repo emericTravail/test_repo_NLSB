@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<caswilxml xmlns:ns0="http://Caswil">
+<statement lastWritten="2021-05-27T17:21:59311" history="statement:Not saved yet;hint:Column added;hintDescription:col6;date:2021-05-27T17:21:56991;">
+<sources>
+<source name="NewSrc2" description="">
+<connection filename="xml\test_emeric.Caswil.ST.Xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False" />
+<connection filename="xml\test_emeric.Caswil.ST.Xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False" />
+</source>
+</sources>
+<columns>
+<column name="col1" visible="">
+<block  value="[NewSrc2].[col1]" display="[NewSrc2].[col1]"></block>
+</column>
+<column name="col2" visible="">
+<block  value="[NewSrc2].[col2]" display="[NewSrc2].[col2]"></block>
+</column>
+<column name="col3" visible="">
+<block  value="[NewSrc2].[col3]" display="[NewSrc2].[col3]"></block>
+</column>
+<column name="col5" visible="">
+<block  value="[NewSrc2].[col5]" display="[NewSrc2].[col5]"></block>
+</column>
+<column name="col6" visible="">
+<block  value="[NewSrc2].[col6]" display="[NewSrc2].[col6]"></block>
+</column>
+</columns>
+</statement>
+</caswilxml>

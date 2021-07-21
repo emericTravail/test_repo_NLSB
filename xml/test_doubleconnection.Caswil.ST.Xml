@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<caswilxml xmlns:ns0="http://Caswil">
+<statement lastWritten="2021-06-11T15:09:17203" history="statement:Not saved yet;hint:Path has changed;hintDescription:Old value:xml\test_emeric2.Caswil.ST.Xml, new value:xml\SOURCE_testSource.Caswil.ST.xml;date:2021-06-11T15:09:04236;">
+<sources>
+<source name="NewSrc1" description="">
+<connection filename="xml\test_emeric2.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="True" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False" />
+<connection filename="xml\SOURCE_testSource.Caswil.ST.xml" type="Statement" header="" format="" headerIncluded="True" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False" />
+</source>
+</sources>
+<columns>
+</columns>
+</statement>
+</caswilxml>
