@@ -17,3 +17,4 @@ xml/connectors
 *.py
 !parameters.txt
 .vscode
+NLSB_git_data.csv
