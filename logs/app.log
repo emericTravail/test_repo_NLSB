@@ -108,3 +108,21 @@
 2021-10-06 16:45:30,995 INFO a.Context [main] With parameters: 
 2021-10-06 16:45:30,996 INFO a.Context [main] [root] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSB
 
+2021-11-04 09:27:17,757 INFO a.Context [main] Resolving statement: xml/SOURCE_NewSrc2.Caswil.ST.Xml
+2021-11-04 09:27:17,759 INFO a.Context [main] With parameters: 
+2021-11-04 09:27:17,759 INFO a.Context [main] [root] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSB
+
+2021-11-04 09:27:18,084 ERROR f.AbstractFileReader [ForkJoinPool.commonPool-worker-7] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSBdata\data_sprint_6_2.csv (The system cannot find the path specified)
+2021-11-04 09:27:18,084 ERROR f.AbstractFileReader [ForkJoinPool.commonPool-worker-5] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSBdata\data_sprint_6.csv (The system cannot find the path specified)
+2021-11-04 09:27:18,617 INFO a.Context [main] Resolving statement: xml/output_2021-11-04T09-27-18.Caswil.ST.Xml
+2021-11-04 09:27:18,619 INFO a.Context [main] With parameters: 
+2021-11-04 09:27:18,619 INFO a.Context [main] [root] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSB
+
+2021-11-04 09:27:18,827 ERROR f.AbstractFileReader [ForkJoinPool.commonPool-worker-5] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSBdata\data_sprint_6.csv (The system cannot find the path specified)
+2021-11-04 09:27:18,827 ERROR f.AbstractFileReader [ForkJoinPool.commonPool-worker-7] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSBdata\data_sprint_6_2.csv (The system cannot find the path specified)
+2021-11-04 09:27:19,346 INFO a.Context [main] Resolving statement: xml/NoGroupBy_output_2021-11-04T09-27-18.Caswil.ST.Xml
+2021-11-04 09:27:19,348 INFO a.Context [main] With parameters: 
+2021-11-04 09:27:19,348 INFO a.Context [main] [root] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSB
+
+2021-11-04 09:27:19,558 ERROR f.AbstractFileReader [ForkJoinPool.commonPool-worker-7] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSBdata\data_sprint_6_2.csv (The system cannot find the path specified)
+2021-11-04 09:27:19,558 ERROR f.AbstractFileReader [ForkJoinPool.commonPool-worker-5] C:\Users\elague\Desktop\DevProjects\Data\test_repo_NLSBdata\data_sprint_6.csv (The system cannot find the path specified)
