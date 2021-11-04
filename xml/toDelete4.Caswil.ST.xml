@@ -19,10 +19,10 @@
 			<column name="col3" visible="">
 				<block value="[data_sprint_6].[col3]" display="[data_sprint_6].[col3]"/>
 			</column>
-			<column name="col5" visible="">
+			<column name="col5xdxdxddx" visible="">
 				<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
 			</column>
-			<column name="col6" visible="">
+			<column name="col6asdasdasdasd" visible="">
 				<block value="[data_sprint_6].[col6]" display="[data_sprint_6].[col6]"/>
 			</column>
 		</columns>
