@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <caswilxml xmlns:ns0="http://Caswil">
-	<statement lastWritten="2022-06-16T18:35:13000" history="" description="">
+	<statement lastWritten="2022-06-30T15:28:59000" history="" description="">
 		<sources>
 			<source name="data_sprint_6" description="" stStyle="data_sprint_6">
-				<connection filename="xml/test_emeric4.Caswil.ST.xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+				<connection filename="xml/test_emeric5.Caswil.ST.Xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
 			</source>
 			<source name="data_sprint_6_2" description="" stStyle="data_sprint_6_2">
-				<connection filename="xml/test_emeric2.Caswil.ST.Xml" type="Statement" header="1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+				<connection filename="xml/test_emeric4.Caswil.ST.xml" type="Statement" header="1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
 			</source>
 		</sources>
 		<columns>
