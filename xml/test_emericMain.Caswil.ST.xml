@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <caswilxml xmlns:ns0="http://Caswil">
-	<statement lastWritten="2022-06-30T15:52:08000" history="" description="">
+	<statement lastWritten="2022-07-04T16:14:11000" history="" description="">
 		<sources>
 			<source name="data_sprint_6" description="" stStyle="data_sprint_6">
 				<connection filename="xml/test_emeric10.Caswil.ST.Xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
@@ -20,7 +20,13 @@
 				<block value="[data_sprint_6].[col3]" display="[data_sprint_6].[col3]"/>
 			</column>
 			<column name="col5" visible="">
-				<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+				<block type="Map" value="" iValue="" display="">
+					<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+					<block type="Map" value="" iValue="" display="">
+						<block value="[Out].[col1]" display="[Out].[col1]"/>
+						<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+					</block>
+				</block>
 			</column>
 			<column name="col6" visible="">
 				<block value="[data_sprint_6].[col6]" display="[data_sprint_6].[col6]"/>
