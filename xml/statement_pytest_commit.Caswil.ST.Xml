@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<caswilxml xmlns:ns0="http://Caswil">
+	<statement lastWritten="2022-07-05T19:07:32000" history="" description="">
+		<sources>
+			<source name="data_sprint_6" description="">
+				<connection filename="[parameter].[root]\data\data_sprint_6.csv" type="CSV" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+			</source>
+			<source name="data_sprint_6_2" description="">
+				<connection filename="[parameter].[root]\data\data_sprint_6_2.csv" type="CSV" header="1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+			</source>
+		</sources>
+		<columns>
+			<column name="col1" visible="">
+				<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col1]"/>
+			</column>
+			<column name="col2" visible="">
+				<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col2]"/>
+			</column>
+			<column name="col3" visible="">
+				<block value="[data_sprint_6].[col3]" display="[data_sprint_6].[col3]"/>
+			</column>
+			<column name="col5" visible="">
+				<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+			</column>
+			<column name="col6" visible="">
+				<block value="[data_sprint_6].[col6]" display="[data_sprint_6].[col6]"/>
+			</column>
+		</columns>
+		<filters>
+			<block type="Filter">
+				<block value="[data_sprint_6].[col1]" display="[data_sprint_6].[col1]"/>
+				<block type="value" value="=" display="="/>
+				<block type="value" value="1" iValue="1" display="1"/>
+			</block>
+		</filters>
+		<stStyles>
+			<stStyle name="data_sprint_6">
+				<columns>
+					<column name="col1" visible="">
+						<block value="[In].[col2]" display="[In].[col1]"/>
+					</column>
+					<column name="col2" visible="">
+						<block value="[In].[col2]" display="[In].[col2]"/>
+					</column>
+					<column name="col3" visible="">
+						<block value="[In].[col3]" display="[In].[col3]"/>
+					</column>
+					<column name="col5" visible="">
+						<block value="[In].[col5]" display="[In].[col5]"/>
+					</column>
+					<column name="col6" visible="">
+						<block value="[In].[col6]" display="[In].[col6]"/>
+					</column>
+				</columns>
+				<filters>
+					<block type="Filter">
+						<block value="[data_sprint_6].[col1]" display="[data_sprint_6].[col1]"/>
+						<block type="value" value="=" display="="/>
+						<block type="value" value="1" iValue="1" display="1"/>
+					</block>
+				</filters>
+			</stStyle>
+		</stStyles>
+	</statement>
+</caswilxml>
