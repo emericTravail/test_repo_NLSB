@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<caswilxml xmlns:ns0="http://Caswil">
+	<statement lastWritten="2022-07-04T19:11:11000" history="" description="">
+		<sources>
+			<source name="data_sprint_6" description="" stStyle="data_sprint_6">
+				<connection filename="xml/test_emeric10.Caswil.ST.Xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+			</source>
+			<source name="data_sprint_6_2" description="" stStyle="data_sprint_6_2">
+				<connection filename="xml/test_emeric4.Caswil.ST.xml" type="Statement" header="1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+			</source>
+			<source name="data_sprint_6_3" description="">
+				<connection filename="xml/test_emeric4_copy_1.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+			<source name="data_sprint_6_4" description="">
+				<connection filename="xml/test_emeric4_copy_2.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+			<source name="data_sprint_6_5" description="">
+				<connection filename="xml/test_emeric4_copy_3.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+			<source name="data_sprint_6_6" description="">
+				<connection filename="xml/test_emeric4_copy_4.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+			<source name="data_sprint_6_7" description="">
+				<connection filename="xml/test_emeric4_copy_5.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+			<source name="data_sprint_6_8" description="">
+				<connection filename="xml/test_emeric4_copy_6.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+			<source name="data_sprint_6_9" description="">
+				<connection filename="xml/test_emeric4_copy_7.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+			<source name="data_sprint_6_10" description="">
+				<connection filename="xml/test_emeric4_copy_8.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+		</sources>
+		<columns>
+			<column name="col1" visible="">
+				<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col1]"/>
+			</column>
+			<column name="col2" visible="">
+				<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col2]"/>
+			</column>
+			<column name="col3" visible="">
+				<block value="[data_sprint_6].[col3]" display="[data_sprint_6].[col3]"/>
+			</column>
+			<column name="col5" visible="">
+				<block type="Map" value="" iValue="" display="">
+					<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+					<block type="Map" value="" iValue="" display="">
+						<block value="[Out].[col3]" display="[Out].[col3]"/>
+						<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+					</block>
+				</block>
+			</column>
+			<column name="col6" visible="">
+				<block value="[data_sprint_6].[col6]" display="[data_sprint_6].[col6]"/>
+			</column>
+		</columns>
+		<filters>
+			<block type="Filter">
+				<block value="[data_sprint_6].[col3]" display="[data_sprint_6].[col3]"/>
+				<block type="value" value="=" display="="/>
+				<block type="value" value="1234567890" iValue="1234567890" display="1234567890"/>
+			</block>
+		</filters>
+		<stStyles>
+			<stStyle name="data_sprint_6">
+				<columns>
+					<column name="col1" visible="" groupby="" sort="">
+						<block value="[In].[col1]" display="[In].[col1]"/>
+					</column>
+					<column name="col2" visible="" groupby="" sort="">
+						<block value="[In].[col2]" display="[In].[col2]"/>
+					</column>
+					<column name="col3" visible="" groupby="" sort="">
+						<block value="[In].[col3]" display="[In].[col3]"/>
+					</column>
+					<column name="col5" visible="" groupby="" sort="">
+						<block value="[In].[col5]" display="[In].[col5]"/>
+					</column>
+					<column name="col6" visible="" groupby="" sort="">
+						<block value="[In].[col6]" display="[In].[col6]"/>
+					</column>
+				</columns>
+				<filters>
+					<block type="Filter">
+						<block value="[In].[col3]" display="[In].[col3]"/>
+						<block type="value" value="=" display="="/>
+						<block type="value" value="1234567890" iValue="1234567890" display="1234567890"/>
+					</block>
+				</filters>
+			</stStyle>
+			<stStyle name="data_sprint_6_2">
+				<columns>
+					<column name="1" visible="" groupby="" sort="">
+						<block value="[In].[1]" display="[In].[1]"/>
+					</column>
+					<column name="1234567890" visible="" groupby="" sort="">
+						<block value="[In].[1234567890]" display="[In].[1234567890]"/>
+					</column>
+					<column name="Gabriel" visible="" groupby="" sort="">
+						<block value="[In].[Gabriel]" display="[In].[Gabriel]"/>
+					</column>
+					<column name="1.20" visible="" groupby="" sort="">
+						<block value="[In].[1.20]" display="[In].[1.20]"/>
+					</column>
+					<column name="val" visible="" groupby="" sort="">
+						<block value="[In].[val]" display="[In].[val]"/>
+					</column>
+				</columns>
+			</stStyle>
+		</stStyles>
+	</statement>
+</caswilxml>
+<PyTest></PyTest>
