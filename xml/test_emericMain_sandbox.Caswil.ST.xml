@@ -36,4 +36,48 @@
 		<stStyles>
 		</stStyles>
 	</statement>
+</caswilxml><PyTest></PyTest>
+<PyTest></PyTest>
+<PyTest></PyTest>
+<?xml version='1.0' encoding='UTF-8'?>
+<caswilxml xmlns:ns0="http://Caswil">
+	<statement lastWritten="2022-07-04T19:11:11000" history="" description="">
+		<sources>
+		</sources>
+		<columns>
+			<column name="col1" visible="">
+				<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col1]"/>
+			</column>
+			<column name="col2" visible="">
+				<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col2]"/>
+			</column>
+			<column name="col3" visible="">
+				<block value="[data_sprint_6].[col3]" display="[data_sprint_6].[col3]"/>
+			</column>
+			<column name="col5" visible="">
+				<block type="Map" value="" iValue="" display="">
+					<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+					<block type="Map" value="" iValue="" display="">
+						<block value="[Out].[col3]" display="[Out].[col3]"/>
+						<block value="[data_sprint_6].[col5]" display="[data_sprint_6].[col5]"/>
+					</block>
+				</block>
+			</column>
+			<column name="col6" visible="">
+				<block value="[data_sprint_6].[col6]" display="[data_sprint_6].[col6]"/>
+			</column>
+		</columns>
+		<filters>
+			<block type="Filter">
+				<block value="[data_sprint_6].[col3]" display="[data_sprint_6].[col3]"/>
+				<block type="value" value="=" display="="/>
+				<block type="value" value="1234567890" iValue="1234567890" display="1234567890"/>
+			</block>
+		</filters>
+		<stStyles>
+		</stStyles>
+	</statement>
 </caswilxml>
+<PyTest></PyTest>
+<PyTest></PyTest>
+<PyTest></PyTest>
