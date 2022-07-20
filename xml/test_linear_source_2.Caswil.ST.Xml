@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<caswilxml xmlns:ns0="http://Caswil">
+	<statement lastWritten="2022-07-20T18:21:25000" history="">
+		<sources>
+			<source name="new_source" description="">
+				<connection filename="xml/test_linear_source.Caswil.ST.Xml" type="Statement" header="" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+		</sources>
+		<columns>
+			<column name="col1" visible="" groupby="" sort="">
+				<block value="[new_source].[col1]" display="[new_source].[col1]"/>
+			</column>
+			<column name="col2" visible="" groupby="" sort="">
+				<block value="[new_source].[col2]" display="[new_source].[col2]"/>
+			</column>
+			<column name="col3" visible="" groupby="" sort="">
+				<block value="[new_source].[col3]" display="[new_source].[col3]"/>
+			</column>
+			<column name="col4" visible="" groupby="" sort="">
+				<block value="[new_source].[col4]" display="[new_source].[col4]"/>
+			</column>
+			<column name="col5" visible="" groupby="" sort="">
+				<block value="[new_source].[col5]" display="[new_source].[col5]"/>
+			</column>
+			<column name="col6" visible="" groupby="" sort="">
+				<block value="[new_source].[col6]" display="[new_source].[col6]"/>
+			</column>
+		</columns>
+	</statement>
+</caswilxml>
