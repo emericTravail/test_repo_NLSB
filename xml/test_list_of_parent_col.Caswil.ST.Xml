@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<caswilxml xmlns:ns0="http://Caswil">
+	<statement lastWritten="2022-07-04T19:08:33000" history="" description="">
+		<sources>
+			<source name="data_sprint_6" description="">
+				<connection filename="xml/test_emericMain.Caswil.ST.xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+			</source>
+		</sources>
+		<columns>
+			<column name="no_value_in_map" visible="">
+				<block type="Map" iValue="" display="">
+					<block value="[data_sprint_6].[col1]" display="[data_sprint_6].[col1]"/>
+					<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col2]"/>
+				</block>
+			</column>
+		</columns>
+	</statement>
+</caswilxml>
