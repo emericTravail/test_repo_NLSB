@@ -10,6 +10,9 @@
 			<column name="col1" visible="">
 				<block value="[data_sprint_6].[col1]" display="[data_sprint_6].[col1]"/>
 			</column>
+			<column name="col1_1" visible="">
+				<block value="[data_sprint_6].[col1]" display="[data_sprint_6].[col1]"/>
+			</column>
 			<column name="col2" visible="">
 				<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col2]"/>
 			</column>
