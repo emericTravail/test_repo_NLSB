@@ -14,6 +14,7 @@
 				<block type="Map" iValue="" display="">
 					<block value="[data_sprint_6].[col1]" display="[data_sprint_6].[col1]"/>
 					<block value="[data_sprint_6].[col2]" display="[data_sprint_6].[col2]"/>
+					<block value="[data_sprint_6_2].[col2]" display="[data_sprint_6_2].[col2]"/>
 					<block value="[inexistant_source].[col2]" display="[inexistant_source].[col2]"/>
 				</block>
 			</column>
