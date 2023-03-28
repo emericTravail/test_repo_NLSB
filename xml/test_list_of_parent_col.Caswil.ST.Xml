@@ -8,6 +8,9 @@
 			<source name="data_sprint_6_2" description="" stStyle="">
 				<connection filename="xml/test_emericMain.Caswil.ST.xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
 			</source>
+			<source name="INVALID_SOURCE" description="" stStyle="">
+				<connection filename="xml/THIS_STATEMENT_DOES_NOT_EXISTS.Caswil.ST.xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+			</source>
 		</sources>
 		<columns>
 			<column name="no_value_in_map" visible="">
