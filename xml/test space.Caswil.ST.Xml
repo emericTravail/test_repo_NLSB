@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<caswilxml xmlns:ns0="http://Caswil">
+	<statement lastWritten="2023-05-11T15:03:53000" statementType="columns" history="">
+		<sources>
+			<source name="new_source" description="" stStyle="new_source">
+				<connection filename="[parameter].[root]/data_sprint_6.csv" type="CSV" header="col1" format="" headerIncluded="" previewSize="" previewMode="" includeFilename="" includeRowIndex=""/>
+			</source>
+		</sources>
+		<columns>
+			<column name="New_col" visible="" groupby="" sort="">
+				<block value="[In].[LastModified]" display="[In].[LastModified]"/>
+			</column>
+			<column name="New_col_1" visible="" groupby="" sort="">
+				<block value="[new_source].[col1]" display="[new_source].[col1]"/>
+			</column>
+		</columns>
+		<stStyles>
+			<stStyle name="new_source">
+				<columns>
+					<column name="LastModified" visible="" groupby="" sort="">
+						<block value="[In].[LastModified]" display="[In].[LastModified]"/>
+					</column>
+					<column name="col1" visible="" groupby="" sort="">
+						<block value="[In].[col1]" display="[In].[col1]"/>
+					</column>
+					<column name="col2" visible="" groupby="" sort="">
+						<block value="[In].[col2]" display="[In].[col2]"/>
+					</column>
+					<column name="col3" visible="" groupby="" sort="">
+						<block value="[In].[col3]" display="[In].[col3]"/>
+					</column>
+					<column name="col4" visible="" groupby="" sort="">
+						<block value="[In].[col4]" display="[In].[col4]"/>
+					</column>
+					<column name="col5" visible="" groupby="" sort="">
+						<block value="[In].[col5]" display="[In].[col5]"/>
+					</column>
+					<column name="col6" visible="" groupby="" sort="">
+						<block value="[In].[col6]" display="[In].[col6]"/>
+					</column>
+				</columns>
+			</stStyle>
+		</stStyles>
+	</statement>
+</caswilxml>
