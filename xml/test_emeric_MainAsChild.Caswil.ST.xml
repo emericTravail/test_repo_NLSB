@@ -5,6 +5,9 @@
 			<source name="data_sprint_6" description="" stStyle="data_sprint_6">
 				<connection filename="xml/test_emericMain.Caswil.ST.xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
 			</source>
+			<source name="param_in_source" description="" stStyle="data_sprint_6">
+				<connection filename="xml/test_[parameters].[testParam]Main.Caswil.ST.xml" type="Statement" header="col1" format="" headerIncluded="False" previewSize="0" previewMode="False" includeFilename="False" includeRowIndex="False"/>
+			</source>
 		</sources>
 		<columns>
 			<column name="col1" visible="">
