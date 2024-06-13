@@ -1,3 +1,3 @@
 MARCOS = [
-    tuple['print_macro', print]
+    ['print_macro', print]
 ]
