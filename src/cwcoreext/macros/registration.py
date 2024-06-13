@@ -1,3 +1,3 @@
-MARCOS = (
-    ('print_macro', print)
+MARCOS = tuple(
+    tuple('print_macro', print)
 )
